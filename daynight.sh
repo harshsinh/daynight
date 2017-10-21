@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author : Harsh Sinha, driver script for the daynight program
+# Driver script for the daynight program
 # List of jpg day night wallpapers in my pictures folder
 # The format for names is <nameString>day.jpg and <nameString>night.jpg
 target=($(ls $HOME/Pictures/daynight/ | grep -E "*day.*" ))
