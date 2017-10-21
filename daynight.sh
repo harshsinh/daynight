@@ -5,6 +5,7 @@
 target=($(ls $HOME/Pictures/daynight/ | grep -E "*day.*" ))
 temp='day'
 wallpaper=()
+dir=`pwd`
 
 # This loop extracts name string from the full name.
 for i in {1..${#target[@]}}
@@ -23,8 +24,8 @@ do
 	rand=$(( ( RANDOM % $numWallP ) + 1  ))
 	echo ${wallpaper[$rand]}
 	if [ $((currHour < 11)) -eq 1 ]; then
-		source ~/scripts/night.sh ${wallpaper[$rand]}night.jpg
-	else source ~/scripts/day.sh ${wallpaper[$rand]}day.jpg
+		source ${dir}/night.sh ${wallpaper[$rand]}night.jpg
+	else source ${dir}/day.sh ${wallpaper[$rand]}day.jpg
 	fi;
 	sleep 1800;
 done
