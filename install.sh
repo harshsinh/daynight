@@ -1,6 +1,7 @@
 #!/bin/bash
 # Installation script for daynight.
 # Finding Shell and all
+sudo apt-get install redshift
 for i in $(echo $SHELL | tr "/" "\n")
 do
 	temp=$i
