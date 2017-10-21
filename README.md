@@ -5,6 +5,10 @@ Current Implementation has :
 * Variable Lock Screens
 * redshift
 
+### Screenshots
+![screenshot1](./screenshots/ss1.png)
+![nightforscreenshot1](./screenshots/ss1n.png)
+
 ### Installation
 In order to use this program, do the following :
 * `git clone git@github.com:harshsinh/daynight.git` : Clone the repo
