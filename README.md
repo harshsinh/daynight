@@ -13,5 +13,6 @@ In order to use this program, do the following :
 
 
 #### TODO:
+* Instead of adding to shellrc add to autostart
 * Add more wallpapers
 * Have different wallpapers and lockscreens
