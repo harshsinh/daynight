@@ -6,4 +6,5 @@ echo $image_add
 redshift -x
 gsettings set org.gnome.desktop.interface gtk-theme "Arc"
 gsettings set org.gnome.desktop.screensaver picture-uri $image_add
+gsettings set org.gnome.desktop.background picture-uri $image_add
 echo "Daytime settings applied"
